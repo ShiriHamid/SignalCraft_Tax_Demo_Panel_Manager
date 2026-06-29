@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 
-const WEBHOOK_URL = "https://signalcraftai.app.n8n.cloud/webhook/SignalCraft-Tax-api";
-const UPDATE_URL  = "https://signalcraftai.app.n8n.cloud/webhook/SignalCraft-Tax-update";
-const BLOCKED_URL = "https://signalcraftai.app.n8n.cloud/webhook/SignalCraft-Tax-blocked";
-const CONSULTANTS_URL = "https://signalcraftai.app.n8n.cloud/webhook/SignalCraft-Tax-consultants";
-const REBUILD_PROMPT_URL = "https://signalcraftai.app.n8n.cloud/webhook/SignalCraft-tax-rebuild-advisers-prompt";
+const WEBHOOK_URL = "https://n8n-production-aed0a.up.railway.app/webhook/SignalCraft-Tax-api";
+const UPDATE_URL  = "https://n8n-production-aed0a.up.railway.app/webhook/SignalCraft-Tax-update";
+const BLOCKED_URL = "https://n8n-production-aed0a.up.railway.app/webhook/SignalCraft-Tax-blocked";
+const CONSULTANTS_URL = "https://n8n-production-aed0a.up.railway.app/webhook/SignalCraft-Tax-consultants";
+const REBUILD_PROMPT_URL = "https://n8n-production-aed0a.up.railway.app/webhook/SignalCraft-tax-rebuild-advisers-prompt";
 
 const AUTH = { username: "admin", password: "admin", pin: "1234" };
 const SESSION_KEY = "signalcraft_consultant_auth";
